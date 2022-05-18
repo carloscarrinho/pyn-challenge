@@ -8,6 +8,7 @@
   },
   "scripts": {
     "build": "tsc .",
+    "test": "jest",
     "test:unit": "jest -c jest-unit-config.js",
     "test:unit:watch": "jest --watch --coverage=false -c jest-unit-config.js",
     "start": "ts-node ./src/index.ts"
